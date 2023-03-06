@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(27, 27, 27);
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 400px;
+}
+
+.hero p {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.btn-style {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 15px 30px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
