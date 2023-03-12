@@ -73,4 +73,26 @@ h3 {
   .btn-style {
     font-size: 20px;
   }
+
+  .landing-container p {
+    padding-bottom: 50px;
+  }
+
+  .project-container h2 {
+    padding-top: 0px;
+  }
+}
+
+.project h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.landing-container p {
+  padding-top: 0px;
+}
+
+.weather-container p {
+  padding-top: 0px;
 }
