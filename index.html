@@ -25,6 +25,31 @@
     <title>Portfolio 2</title>
     <link rel="stylesheet" href="style/portfolio.css" />
   </head>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Charne Langdon</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html"
+          >Home <span class="sr-only"></span
+        ></a>
+        <a class="nav-item nav-link" href="about.html">About</a>
+        <a class="nav-item nav-link" href="work.html">Projects</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
   <body>
     <div class="hero">
       <p>I am,</p>
@@ -48,7 +73,7 @@
         <div class="col-6">
           <h2>Landing Page</h2>
           <p>Description of Landing Page</p>
-          <a href="#" class="btn btn-style">Go to Landing Page</a>
+          <a href="work.html" class="btn btn-style">Go to Landing Page</a>
         </div>
       </div>
       <br />
@@ -62,7 +87,7 @@
         <div class="col-6">
           <h2>Weather App</h2>
           <p>Description of Weather App</p>
-          <a href="#" class="btn btn-style">Go to Weather App</a>
+          <a href="work.html" class="btn btn-style">Go to Weather App</a>
         </div>
 
         <div class="col-6 d-none d-lg-block">
@@ -70,31 +95,9 @@
         </div>
       </div>
     </div>
-    <div class="about">
-      <h2>About the Developer</h2>
-
-      <p>Front-End Developer based in the USA.</p>
-      <br />
-      <br />
-
-      <a href="#" class="btn btn-style">See My Work</a>
-
-      <div class="project-container project container">
-        <h2>Projects</h2>
-        <div class="row">
-          <div class="col-md-6 text-center landing-container">
-            <img src="style/landing_page.JPG" class="img-fluid" alt="" />
-            <h3 class="text-center">Landing Page</h3>
-            <p>Built with HTML and CSS</p>
-          </div>
-
-          <div class="col-md-6 text-center weather-container">
-            <img src="style/weather_app.JPG" class="img-fluid" alt="" />
-            <h3 class="text-center">Weather App</h3>
-            <p>Built with HTML, CSS, and Javascript</p>
-          </div>
-        </div>
-      </div>
+    
+        
+      
     </div>
   </body>
 </html>
